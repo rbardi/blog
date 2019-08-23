@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/page', function () {
-    return view('templete/layout');
+    return view('page');
 });
